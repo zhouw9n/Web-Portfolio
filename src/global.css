@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Switzer";
+  src: url(/public/fonts/Switzer-Variable.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Doto";
+    src: url(/public/fonts/Doto-Variable.woff2) format("woff2");
+}
+
+@theme { 
+    --text-fluid-base: clamp(1rem, 0.696rem + 0.593vw, 3rem); /* Paragraphs: 14px - 48px */
+    --text-fluid-xs: clamp(0.75rem, 0.636rem + 0.568vw, 1rem); /* Tags: 14px - 16px */
+    --font-doto: "Doto";
+    --breakpoint-840: 52.5rem; /* 840px */
+}
+
+:root {
+    --black: #171717; /* RGB: 23, 23, 23 */
+    --black85: rgba(23,23,23,0.7);
+    --white: #EDEAE2; /* RGB: 237, 234, 226 */
+    --white50: rgba(237,234,226,0.5);
+    --orange: #FF8800; /* RGB: 255, 136, 0 */
+
+    --font-size-links: clamp(1.25rem, 1.136rem + 0.568vw, 1.5rem);
+    
+    
+
+    --gap-nav-fluid: clamp(4rem, 1.5rem + 6.25vw, 4.5rem);
+    --gap-section-fluid: clamp(7.5rem, 4.659rem + 14.205vw, 13.75rem);
+    --gap-y-techstack-fluid: clamp(0rem, -1.364rem + 6.818vw, 3rem);
+
+    --size-copyright: clamp(2.5rem, -1.25rem + 18.75vw, 6.25rem);
+    --size-tech-icons: clamp(2rem, 1.772rem + 1.138vw, 2.5rem);
+
+    --padding-fluid: clamp(4rem, 2.179rem + 9.104vw, 8rem);
+    --padding-description-fluid: clamp(1.5rem, 0.214rem + 6.429vw, 6rem); 
+    --padding-projects-section-fluid: clamp(0.5rem, -0.636rem + 5.682vw, 3rem);
+
+    --rounded-content-container: clamp(1.75rem, 0.953rem + 3.983vw, 3.5rem);
+
+    --right-fluid-dropdown: clamp(0.75rem, 0.35rem + 2.5vw, 1.25rem);
+
+    --h-fluid-header: clamp(18.75rem, 11.607rem + 35.714vw, 43.75rem);
+}
+
+body {
+    padding-inline: 4dvw;
+    background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, a, button {
+    font-family: "Doto";
+}
+
+h1 {
+    font-size: clamp(3.5rem, 1.286rem + 11.071vw, 11.25rem);
+}
+
+h2 {
+    font-size: clamp(3rem, 1.636rem + 6.818vw, 6rem);
+}
+
+h3 {
+    font-size: clamp(2rem, 1.545rem + 2.273vw, 3rem);
+}
+
+h4 {
+    font-size: clamp(2rem, 1.773rem + 1.136vw, 2.5rem);
+}
+
+p {
+    font-family: "Switzer";
+    font-weight: 300;
+}
