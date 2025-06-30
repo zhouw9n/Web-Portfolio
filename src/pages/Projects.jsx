@@ -9,15 +9,20 @@ import { useLocation } from "react-router";
 import { motion } from "motion/react";
 import iconArrowBlack from "../assets/icons/arrow_black.svg";
 
+/**
+ * Projects Page Component
+ * 
+ * Consists of a Header, and several Project Sections listing all my projects.
+ * Includes a fold in on scroll animation for each sub-section of a projects (Challenges, Highlights, and Improvements)
+ */
 function Projects() {
+    // Determing if user clicked on a Read More button on one of the project previews to scroll down to the specific project.
     const location = useLocation();
 
     useEffect(() => {
         if (location.hash) {
             const id = location.hash.slice(1);
             const element = document.getElementById(id);
-
-
             if (element) {
                 element.scrollIntoView();
             }

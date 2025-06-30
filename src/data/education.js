@@ -1,5 +1,5 @@
-
-
+// Array of all education experiences.
+// Centralized here for maintainability and scalability.
 export const EDUCATION = [
     // BSc Business IT
     {

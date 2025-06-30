@@ -10,9 +10,11 @@ import { PROJECTS } from "../data/projects";
 import { TECH_STACK } from "../data/techstack";
 import { BUTTON_LABELS, BUTTON_TYPES } from "../data/buttons";
 
-
-
-
+/**
+ * Home Page Component
+ * 
+ * Consists of a Hero, About Section, Project Section with Project Previews, Tech Stack Section, and a CTA Section.
+ */
 function Home() {
     useEffect(() => {
         window.scroll(0,0);

@@ -11,6 +11,8 @@ import iconVsCode from "../assets/icons/vscode.svg";
 import iconMySql from "../assets/icons/mysql.svg";
 import iconJava from "../assets/icons/java.svg";
 
+// Array of tech stack and tools.
+// Centralized here for maintainability and scalability.
 export const TECH_STACK = [
     {
         label: "HTML5",

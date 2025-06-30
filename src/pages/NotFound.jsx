@@ -1,6 +1,11 @@
 import { motion } from "motion/react";
 import { useEffect } from "react";
 
+/**
+ * Not Found Page Component
+ * 
+ * Shows the user a 404 Page Not Found page.
+ */
 function NotFound() {
     useEffect(() => {
         window.scroll(0,0);

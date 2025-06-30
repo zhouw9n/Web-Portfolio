@@ -6,6 +6,11 @@ import { WORK } from "../data/work";
 import { motion } from "motion/react";
 import { useEffect } from "react";
 
+/**
+ * About Page Component
+ * 
+ * Consists of a Header, Introduction Section, Education Section and Work Experience Section.
+ */
 function About() {
     useEffect(() => {
         window.scroll(0,0);
@@ -55,7 +60,7 @@ function About() {
                                     userDrag: 'none',
                                     WebkitUserDrag: 'none'
                                 }}
-                                onContextMenu={(e) => e.preventDefault()}
+                                onContextMenu={(e) => e.preventDefault()} //Disables Context Menu (right click)
                                 className="rounded-[5px] w-auto h-auto md:h-[460px] object-contain object-start aspect-auto select-none"
                             />
                         </div>

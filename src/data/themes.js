@@ -5,6 +5,8 @@ import iconCloseWhite from "../assets/icons/close_white.svg";
 import iconArrowWhite from "../assets/icons/arrow_white.svg";
 import iconArrowBlack from "../assets/icons/arrow_black.svg";
 
+// Centralized configuration for themes when switching pages.
+// Changes affect navigation bar on desktop as well as on mobile.
 export const THEMES = {
     light: {
         desktop: {

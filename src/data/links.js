@@ -1,4 +1,5 @@
-
+// Centralized configuration for navigation links used on the website.
+// Divided into internal and external.
 export const LINKS = {
     internal: [
         {

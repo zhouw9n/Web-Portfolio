@@ -1,5 +1,5 @@
-
-
+// Array of all work experiences.
+// Centralized here for maintainability and scalability.
 export const WORK = [
     // Work Experience 1
     {

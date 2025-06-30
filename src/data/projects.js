@@ -14,7 +14,8 @@ import videoShareadeskMobile from "../assets/videos/shareadesk_mobile.mp4";
 import videoShareadeskTablet from "../assets/videos/shareadesk_tablet.mp4";
 import videoShareadeskDesktop from "../assets/videos/shareadesk_desktop.mp4";
 
-
+// Array of all project details.
+// Centralized here for maintainability and scalability.
 export const PROJECTS = [
     // PROJECT 1
     {
@@ -201,7 +202,7 @@ export const PROJECTS = [
             {   
                 label: BUTTON_LABELS.DEMO,
                 buttonType: BUTTON_TYPES.EXT,
-                href: "https://zhouw9n.github.io/shareadesk.com/",
+                href: "https://zhouw9n.github.io/shareadesk/",
                 icon: iconArrowOrange,
                 className: "gap-2 border-[1px] border-[var(--orange)] rounded-[5px] w-[115px] text-[var(--orange)]"
             },
@@ -215,7 +216,7 @@ export const PROJECTS = [
             {
                 label: BUTTON_LABELS.GITHUB,
                 buttonType: BUTTON_TYPES.EXT,
-                href: "https://github.com/zhouw9n/shareadesk.com",
+                href: "https://github.com/zhouw9n/shareadesk",
                 icon: iconArrowOrange,
                 className: "gap-2 border-[1px] border-[var(--orange)] rounded-[5px] w-[144px] text-[var(--orange)]"
             }
