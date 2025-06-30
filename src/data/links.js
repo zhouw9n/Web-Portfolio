@@ -18,7 +18,7 @@ export const LINKS = {
     external: [
         {
             label: "Resume",
-            url: "/Resume_Ruwen_Chiew.pdf"
+            url: "/Resume.pdf"
         },
         {
             label: "GitHub",

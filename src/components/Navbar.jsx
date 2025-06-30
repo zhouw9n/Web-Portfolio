@@ -48,7 +48,7 @@ function Navbar() {
 
     useEffect(() => {
         const handleClick = (event) => {
-            if (menuRef.current && !menuRef.current.contains(event.target) && toggleMenu) {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
                 setToggleMenu(false);
             }
         };
