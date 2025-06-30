@@ -1,12 +1,35 @@
-# React + Vite
+# 🖥️	Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio project crafted to showcase my frontend development work, as well as to demonstrate my frontend development skills and UI/UX design thinking. It provides a sleek and intuitive user experience with a focus on clean layout, responsive structure, and smooth interactive transitions. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ## ✨ Features
 
-## Expanding the ESLint configuration
+- Showcases key frontend projects with descriptions and visuals
+- Fully responsive design across all screen sizes
+- Smooth transitions and subtle animations using Motion
+- Minimalist layout with clean typography and thoughtful spacing
+- Includes pages: "Home", "About", and "Projects"
+- Built from scratch using React and TailwindCSS, focusing on reusable components and clean code practices for scalability and
+  maintainability
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+> ## 🛠️ Tech Stack
+
+This project emphasizes reusable components and a clean UI using React and TailwindCSS.
+
+### Frontend
+
+- JavaScript / HTML / CSS
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Motion](https://motion.dev/)
+- [Vite](https://vitejs.dev/)
+
+---
+
+> ## 📁 Project Structure
+
+![image](https://github.com/user-attachments/assets/c2a4a8a8-d6c9-4a2b-bcbc-c045aaa8d2ad)
