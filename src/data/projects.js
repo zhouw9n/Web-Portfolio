@@ -45,7 +45,7 @@ export const PROJECTS = [
 
         highlights: [
             "Build a complete AI-powered recommendation feature using vector search",
-            "Gained experience witht the introduction of React and TailwindCSS",
+            "Gained experience with the introduction of React and TailwindCSS",
             "Built backend services to securely handle API requests and protect secrete keys"
         ],
 
@@ -160,7 +160,7 @@ export const PROJECTS = [
 
     // PROJECT 3
     {
-        id: "04",
+        id: "03",
         name: "shareadesk",
         type: "(Web App)",
         summary: "A desk sharing management app which lets you search, book and manage a work space, built as part of my university web development course.",
@@ -229,7 +229,7 @@ export const PROJECTS = [
 
     // PROJECT 4
     {
-        id: "03",
+        id: "04",
         name: "Web Portfolio",
         type: "(Website)",
         summary: "A responsive web portfolio built to showcase my projects, design approach, and technical background, giving a clear view of who I am and what I create.",
@@ -259,7 +259,7 @@ export const PROJECTS = [
         improvements: [
             "Implement a CMS or headless setup for easier content updates",
             "Dark mode toggle for better accessibility and preference",
-            "Blog section to better track progress"
+            "Further improve image and video performance"
         ],
 
         buttons: [
