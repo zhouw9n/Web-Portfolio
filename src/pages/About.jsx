@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import SectionBlockAbout from "../components/SectionBlockAbout";
-import portrait from "../assets/images/portrait.webp";
+import portrait from "../assets/images/portrait.avif";
 import { EDUCATION } from "../data/education";
 import { WORK } from "../data/work";
 import { motion } from "motion/react";
@@ -48,20 +48,19 @@ function About() {
                                 about aesthetic and user experience.
                             </p>
                         </div>
-                        
-                        <div className="flex md:justify-end md:items-end order-4 md:col-span-4 md:col-start-9 md:row-span-2 md:row-start-3 w-full">
+
+                        <div className="flex md:justify-end md:items-end order-4 md:col-span-4 md:col-start-9 md:row-span-2 md:row-start-3 w-full" >
                             <img 
                                 src={portrait}
-                                loading="eager"
                                 fetchPriority="high"
                                 alt="Portrait image"
                                 draggable="false" 
                                 style={{
-                                    userDrag: 'none',
-                                    WebkitUserDrag: 'none'
+                                    userDrag: "none",
+                                    WebkitUserDrag: "none"
                                 }}
                                 onContextMenu={(e) => e.preventDefault()} //Disables Context Menu (right click)
-                                className="rounded-[5px] w-auto h-auto md:h-[460px] object-contain object-start aspect-auto select-none"
+                                className="rounded-[5px] w-auto h-auto md:h-[460px] object-contain object-start aspect-auto select-none" 
                             />
                         </div>
                     </div>

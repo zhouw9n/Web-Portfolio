@@ -73,7 +73,7 @@ function Home() {
                         text="Personal projects created to learn, grow, and refine my skills. They show my willingness to take on new challenges, 
                               explore new technologies, and continuously improve my knowledge. Each one is a step forward in my journey as a developer."
                     >
-                        <div ref={containerProjects} className="relative md:col-span-12 h-[400svh]">
+                        <div ref={containerProjects} className="relative md:col-span-12 mt-5 h-[400svh]">
                             {PROJECTS.map((project, index) => {
 
                                 const fadeDistance = 1.25 / PROJECTS.length;
